@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+.parent {
+    width: 100%;
+}
+
+.leftParent {
+    width: 50%;
+    float: left;
+}
+ 
+.rightParent {
+    width: 50%;
+    float: right;
+}
+
+.child {
+    width: 90%;
+    padding: 10%;
+    margin: .5em auto;
+}
+
+.twin {
+    width: 50%;
+    padding: 1em;
+    float: left;
+}
+
+.triplet {
+    width: 33%;
+    padding: 1em;
+    float: left;
+}
+
+.logoTriplet {
+    width: 25%;
+    float: left;
+    padding: 0;
+}
+
+.bigsib {
+    width: 60%;
+    float: left;
+}
+
+.lilsib {
+    width: 40%;
+    float: left;
+    padding-top: 20%;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.Ltwin {
+    float: left;
+    line-height: 1%;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 2em;
+    width: 50%;
+}
+
+.Rtwin {
+    width: 50%;
+    padding: 1em;
+    float: left;
+    padding-top: 2.5em;
+}
+
+.stepsib {
+    padding-left: 35%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.pageName {
+    text-align: center;
+}
+
+.footContent {
+    padding-left: 3em;
+    line-height: 75%;
+}
+
+.bottom:visited {
+    color: #9EB752;
+}
+
+.location {
+    padding-left: 5em;
+    padding-bottom: 5em;
+}
+
+.bottom h2 {
+    text-align: center;
+    padding-top: .75em;
+}
+
+.footContent h2 {
+    padding-left: 2.5em;
+}
+
+.triplet img {
+    width: 100%;
+}
+
+.logoTriplet img {
+    width: 50%;
+}
+
+.bigsib h2 {
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.bigsib img {
+    width: 90%;
+}
+
+.catering h2 {
+    width: 80%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.catering h3 {
+    color: #F69F8E;
+    padding-left: 1.5em;
+}
+
+.catering ul {
+    list-style-type: none;
+    padding-left: 4em;
+}
+
+.catering p {
+    padding-left: 2em;
+}
+
+.sorbet td {
+    background-color: #F69F8E;
+    padding: 1em;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2e2;
+    padding-bottom: 2em;
+}
+
+#tips {
+    color: #000;
+    padding-left: 1.5em;
+}
+
+#vertLine {
+    border-right: 2.5px dashed #F69F8E;
+}
+
+#hero {
+    text-align: center;
+    padding: 5em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+#hero img {
+    width: 60%;
+}
+
+#story img {
+    width: 90%;
+}
+
+#story h1 {
+    padding-left: 1em;
+}
+
+#story p {
+    padding-left: 3em;
+    line-height: 2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/sgBackground.png);
+    background-repeat: repeat;
+    background-size: 40%;
+    background-color: #f2f2e2;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    border-bottom: 2.5px solid #F69F8E;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+header img {
+    padding: .5em 1.5em;
+    width: 15%;
+}
+
+header a {
+    padding-left: 8em;
+}
+
+nav {
+    float: right;
+    width: 65%;
+    padding-top: 2.5em;
+}
+
+nav a {
+    padding: .5em 2em;
+    font-weight: 600;
+    border-left: 2px solid #9EB752;
+}
+
+a {
+    text-decoration: none;
+    color: #9EB752;
+}
+
+a:visited {
+    color: #F69F8E;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #9EB752;
+}
+
+input, textarea {
+    font-size: 1em;
+    padding: .5em;
+}
+
+button {
+    font-size: .75em;
+    margin-bottom: 1em;
+}
+
+table {
+    text-align: center;
+    border-spacing: 2em;
+    width: 75%;
+    padding-left: 24%;
+    color: #f2f2e2;
+}
+
+td {
+    background-color: #9EB752;
+    padding: 1em;
+}
+
+footer {
+    border-bottom: 2.5px solid #F69F8E;
+    border-top: 2.5px solid #F69F8E;
+    width: 100%;
+}
+
+footer p {
+    padding-left: 5em;
+    line-height: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9EB752;
+}
+
+footer a:visited {
+    color: #9EB752;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+
